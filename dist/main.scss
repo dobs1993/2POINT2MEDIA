@@ -1,0 +1,688 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// Utilities
+
+.menu-wrap {
+    display: none;
+}
+
+body {
+    background: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+}
+
+// Main-header and Nav
+
+#main-header {
+    background: linear-gradient(rgba(244,151,0,0.45), rgba(244,151,0,0.9)), url('./images/blank-business-composition-computer-373076.jpg') no-repeat center center/cover;
+    height: 100vh;
+    
+
+    #main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    max-width: 1100px;
+    margin: 0 auto;
+
+        .logo {
+        padding-top: 1.8rem;
+        img {
+            height: 215px;
+            background: linear-gradient(rgba(244,151,0,0.9), rgba(255, 255, 255, 0.1)) no-repeat right center/150px 100px;
+        }
+        .bottom-line {
+            height: 5px;
+            width: 90px;
+            background: linear-gradient(rgb(255, 157, 0), rgba(244, 150, 0, 0.753));
+            position: relative;
+            top: -85px;
+            left: 112px;
+            }
+}
+        .links {
+        display: flex;
+        align-items: center; 
+    
+        a {
+            color: #fff;
+            margin-right: 1.5rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 1rem;
+            transition: all 1s ease-in;
+
+            &:hover {
+                background: rgb(244,151,0);
+                border-radius: 5px;
+            }
+        }
+        }
+}
+
+// Header content
+
+#header-content .content-container {
+    max-width: 70%;
+    padding-left:7.4rem;
+    
+
+    h1 {
+        color: #fff;
+        font-size: 3.4rem;
+        padding: 3.1rem 0rem;
+    }
+
+    p {
+        color: rgb(253, 237, 212);
+        font-size: 1.8rem;
+        font-style: italic;
+        padding-bottom: 1.5rem;
+    }
+
+    a {
+        background: rgb(255, 102, 0);
+        color: #fff;
+        padding: 1.6rem 2rem;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: all 1s ease-in-out;
+        
+        &:hover{
+            background: rgb(250, 154, 10);
+        }
+}
+}
+}
+//  CTA
+
+#cta {
+    background: rgba(255, 153, 0, 0.808);
+    text-align: center;
+    padding: 2.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+
+    a {
+    &:visited {
+        color: orangered;
+    }
+    }
+}
+
+#cta-2 {
+    background: linear-gradient(rgba(244,151,0,0.45), rgba(244,151,0,0.9)), url('./images/2point2mediawarehouse\ \(2\).jpg') no-repeat center center/cover;
+    padding: 4rem;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+
+    .fas {
+        color: #fff;
+        margin-left: 1rem;
+        border-radius: 50%;
+        background: #FF9900;
+        padding: 0.8rem;
+    }
+}
+
+// Main 
+
+#main {
+    &-a {
+
+        .main-container {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+            padding: 2.5rem;
+
+            #whatwedo {
+                font-size: 2.5rem;
+                color: #FF9900;
+                padding-bottom: .10rem;
+            }
+
+            .sub-heading {
+                font-size: 2.5rem;
+                color: rgb(255, 166, 0);
+            }
+
+            .bottom-line {
+                height: 5px;
+                width: 150px;
+                background: orange;
+                margin:0 auto;
+                margin-bottom: 1.25rem;
+            }
+
+
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-gap: 4rem;
+                padding: 4.5rem;
+
+                .card {
+                    transition: all 2s ease-in;
+
+                    &:hover {
+                        transform: scale(1.25);
+                    }
+                    .text-lead {
+                        color: #FF9900;
+                        font-weight: bold;
+                        font-size: 1.25rem;
+                    }
+                }
+
+                .fas, .far, .fab {
+                    color: #fff;
+                    background: #FF9900;
+                    border-radius: 50%;
+                    padding: 3.25rem;
+                    margin-bottom: 1.25rem;
+                }
+            }
+        }
+    }
+}
+
+// Section Growth
+
+#growth .growth-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem;
+
+    #whatwedo {
+                font-size: 1.7rem;
+                color: #FF9900;
+                padding-bottom: .10rem;
+                text-align: center;
+            }
+
+            .sub-heading {
+                font-size: 1.25rem;
+                color: rgb(255, 166, 0);
+                padding-bottom: 1rem;
+            }
+
+            .sub-heading-two {
+                padding-bottom: 1.5rem;
+            }
+
+            .bottom-line {
+                height: 5px;
+                width: 150px;
+                background: orange;
+                margin:0 auto;
+                margin-bottom: 1.25rem;
+            }
+
+            .fas{
+                    color: #fff;
+                    background: #FF9900;
+                    border-radius: 50%;
+                    padding: 3.25rem;
+                    margin-bottom: 1.25rem;
+                    margin-right: 2rem;
+                    margin-top: 2rem;
+                }
+
+    .growth-content {
+        display: flex;
+        flex-direction: column;
+        max-width: 60%;
+
+        .keywords-and-ppc {
+            display: flex;
+
+            .listing-op {
+                margin-right: 2rem;
+            }
+
+            a {
+                color: #FF9900;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// Footer 
+
+#footer #main-footer {
+    background: #262F36;
+
+    .footer {
+        width: 1100px;
+        display: flex;
+        justify-content: space-around;
+        color: #fff;
+        margin: 0 auto;
+        padding: 2rem 4rem 0.5rem 4rem;
+
+        .card-1 p {
+            width: 70%;
+            font-size: 1.1rem;
+            padding-top: 1rem;
+        }
+
+        h5 {
+            color: silver;
+            font-size: 1.4rem;
+            padding-bottom: 1rem;
+        }
+
+        .card-2 {
+            width: 100%;
+
+            li {
+                margin-bottom: 1rem;
+                border-bottom: 1px dotted #f4f4f4;
+                padding-bottom: 5px;
+                font-size: 0.9rem;
+
+                a {
+                    color: #fff;
+                }
+            }
+        }  
+    }
+    .copyright {
+            text-align: center;
+            color: #fff;
+            padding: 0.5rem 0rem;
+        }
+}
+// Media Queries 
+
+// 0 - 1250px
+
+@media (min-width:0px) and (max-width:1260px){
+    #main-nav {
+    width: 100%;
+     }
+     img {
+         padding-left: 1.5rem;
+     }
+
+     #main-header #main-nav .links a {
+            padding: 0.5rem;
+            margin-right: 0.5rem;
+        }
+
+        #main-header #header-content .content-container {
+            padding-left: 2rem;
+        }
+
+        #main{
+    &-a {
+        .main-container {
+            #whatwedo {
+                font-size: 2.6rem;
+            }
+
+            .sub-heading {
+                font-size: 2rem;
+            }
+
+            .grid-container {
+                grid-template-columns: repeat(2,1fr);
+                grid-gap: 2rem;
+                padding: 2.6rem 0;
+
+                .card {
+
+                    &:hover {
+                        transform: none;
+                    }
+                }
+            } 
+        }
+    }
+}
+
+#growth .growth-container {
+
+    width: 100%;
+    padding: 4rem 0rem;
+
+    margin-right: 0;
+    #whatwedo {
+                font-size: 2rem;
+            }
+
+            .sub-heading {
+                font-size: 1.4rem;
+            }
+
+            .sub-heading-two {
+                font-size: 1.8rem;
+            }
+
+            .fas{
+                    display: none;
+                }
+    }
+    }
+
+
+// 0 - 800px
+
+@media (min-width:0px) and (max-width:800px){
+    #main-header #main-nav .links a {
+            padding: 0.5rem;
+            margin-right: 0.5rem;
+        }
+} 
+// Devices
+@media (min-width:0px) and (max-width:799px){
+    #main-header #main-nav .links a {
+            padding: 0.5rem;
+            margin-right: 0.5rem;
+        }
+        #main-header #header-content .content-container {
+    h1 {
+        color: #fff;
+        font-size: 2.5rem;
+        padding: 1rem 0rem;
+    }
+
+    p {
+        color: rgb(253, 237, 212);
+        font-size: 1.7rem;
+        font-style: italic;
+        padding-bottom: 1.5rem;
+    }
+
+    a {
+        background: rgb(255, 102, 0);
+        color: #fff;
+        padding: 1.7rem 2.3rem;
+        border-radius: 5px;
+    }
+}
+
+#growth .growth-container .keywords-and-ppc {
+    flex-direction: column;
+
+    h4, p {
+        margin-bottom: 1rem;
+    }
+}
+// Footer 
+
+#footer #main-footer {
+    .footer {
+        width: 90%; 
+    }
+}
+}
+
+// Footer column
+
+@media(min-width:0px) and (max-width:625px){
+    // Footer 
+
+#footer #main-footer {
+    .footer {
+        flex-direction: column;
+
+        .card-1 p {
+            padding-bottom: 2rem;
+        }  
+    }
+}
+}
+// Iphone 5 and Galaxy
+
+@media (min-width:0px) and (max-width:374px){
+        #main-header #header-content .content-container {
+    h1 {
+        font-size: 2.15rem;
+    }
+
+    p {
+        font-size: 1.1rem;  
+    }
+} 
+}
+
+// Hamburger menu section
+@media (min-width:0px) and (max-width:700px){
+
+        #main-header #main-nav .links {
+            display: none;
+        }
+
+        #main-header #main-nav {
+        width: 300px;
+        }
+        
+        #main-a {
+            .main-container {
+            width: 100%;
+
+            #whatwedo {
+                font-size: 2rem;
+            }
+
+            .sub-heading {
+                font-size: 1.4rem;
+            }
+
+            .grid-container {
+                grid-template-columns: 1fr;
+                padding: 2.5rem;
+                
+                .fas {
+                    font-size: 4rem;
+                }
+        }
+    }
+}
+        
+        // --------------------------------------------------------------------------------------------------------------------------HAMBURGER MENU IMPORTED-------------------------------------------------------------------------------
+
+// Menu
+
+/* MENU WRAPPING WHERE THE HEADINGS ARE GOING TO POP UP IN */
+
+.menu-wrap {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/* TOGGLER WHICH IS HIDDEN OPACITY SET TO 0 */
+
+.menu-wrap .toggler {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+
+/* HAMBURGER CONTAINER - AROUND LINES  */
+
+.menu-wrap .hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    background: rgba(244,151,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -----------------------
+HAMBURGER LINES
+-------------------------- */
+
+/* CREATING THE FIRST HAMBURGER LINE THE MIDDLE ONE */
+
+.menu-wrap .hamburger div {
+    position: relative;
+    flex: none;
+    width: 100%;
+    height: 4px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    
+
+}
+
+/* CREATING THE UPPER AND LOWER HAMBURGER LINES */
+
+.menu-wrap .hamburger div:before,
+.menu-wrap .hamburger div:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    height: 4px;
+    background: inherit;
+
+}
+
+/* THIRD HAMBURGER LINE AT BOTTOM - BOTH BEFORE AND AFTER GET CREATED BUT ON SAME PLACING ON PAGE */
+
+.menu-wrap .hamburger div:after  {
+    top: 10px;
+}
+
+/* TOGGLER ANIMATION */
+
+/* USE THE + SIGN HERE TO SAY WHEN CHECKED THEN GO TO THIS DIV. SINCE YOU WANT BOTH. YOU WANT IT CHECKED AND YOU WANT THAT DIV  */
+
+.toggler:checked + .hamburger > div {
+
+transform: rotate(135deg);
+
+}
+
+/* THIS TURNS LINES INTO X BELOW  */
+
+.menu-wrap .toggler:checked + .hamburger > div:before, 
+.menu-wrap .toggler:checked + .hamburger > div::after
+{
+top: 0;
+transform: rotate(90deg);
+
+}
+
+/* Rotate on hover when checked */
+
+
+.menu-wrap .toggler:checked:hover + .hamburger div {
+    transform: rotate(225deg);
+}
+
+/* Show Menu - TILDE USED - This is used to target selectors that aren't in or directly after the activated selector */
+
+.menu-wrap .toggler:checked ~ .menu {
+    visibility: visible;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div {
+
+    transform: scale(1);
+    transition-duration: 0.75s;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div > div {
+
+    opacity: 1;
+    transition: opacity 0.4s ease 0.4s;
+}
+
+
+.menu-wrap .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.menu-wrap .menu > div {
+    background: rgba(244,151,0,0.7);
+    width: 200vw;
+    height: 200vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all 0.4s ease;
+    border-radius: 50%;
+    flex: none;
+}
+
+.menu-wrap .menu > div > div {
+    text-align: center;
+    max-width: 90vw;
+    max-height: 100vh;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+
+}
+
+.menu-wrap .menu > div > div > ul > li {
+    list-style: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.menu-wrap .menu > div > div > ul > li > a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.4s ease;
+}
+
+.menu-wrap .menu > div > div > ul > li > a:hover {
+    color: rgb(252, 184, 57);
+}
+}
