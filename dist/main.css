@@ -130,8 +130,8 @@ a {
   width: 100%;
 }
 
-#cta a:visited {
-  color: orangered;
+#cta .globe {
+  margin-right: 0.7rem;
 }
 
 #cta-2 {
@@ -150,7 +150,22 @@ a {
   margin-left: 1rem;
   border-radius: 50%;
   background: #FF9900;
-  padding: 0.8rem;
+  padding: 0.7rem;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#cta-2 .fas:hover {
+  background: #fff;
+  color: #FF9900;
+}
+
+.cta-3 a {
+  color: orangered;
+}
+
+.cta-3 a:visited {
+  color: #ff6600;
 }
 
 #main-a .main-container {
@@ -290,7 +305,7 @@ a {
 }
 
 #footer #main-footer .footer {
-  width: 1100px;
+  max-width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -302,9 +317,10 @@ a {
 }
 
 #footer #main-footer .footer .card-1 p {
-  width: 70%;
+  min-width: 55%;
+  max-width: 75%;
   font-size: 1.1rem;
-  padding-top: 1rem;
+  padding-top: 0.2rem;
 }
 
 #footer #main-footer .footer h5 {
@@ -331,7 +347,9 @@ a {
 #footer #main-footer .copyright {
   text-align: center;
   color: #fff;
-  padding: 0.5rem 0rem;
+  padding-bottom: 1rem;
+  max-width: 85%;
+  margin: 0 auto;
 }
 
 @media (min-width: 0px) and (max-width: 1260px) {
@@ -359,6 +377,9 @@ a {
         grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     padding: 2.6rem 0;
+  }
+  #main-a .main-container .grid-container .card-1 .fas {
+    padding: 2.8rem;
   }
   #main-a .main-container .grid-container .card:hover {
     -webkit-transform: none;
@@ -421,20 +442,25 @@ a {
   #growth .growth-container .keywords-and-ppc h4, #growth .growth-container .keywords-and-ppc p {
     margin-bottom: 1rem;
   }
-  #footer #main-footer .footer {
-    width: 90%;
+  #cta-2 a {
+    margin-top: 2rem;
+    display: block;
   }
 }
 
-@media (min-width: 0px) and (max-width: 625px) {
+@media (min-width: 0px) and (max-width: 655px) {
   #footer #main-footer .footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 2rem 0;
   }
   #footer #main-footer .footer .card-1 p {
     padding-bottom: 2rem;
+  }
+  #main-header {
+    height: 150vh;
   }
 }
 
@@ -467,6 +493,9 @@ a {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     padding: 2.5rem;
+  }
+  #main-a .main-container .grid-container .card-1 .fas, #main-a .main-container .grid-container .card-4 .fas {
+    padding: 4.25rem;
   }
   #main-a .main-container .grid-container .fas {
     font-size: 4rem;
