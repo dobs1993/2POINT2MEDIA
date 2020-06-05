@@ -26,7 +26,7 @@ a {
 // Main-header and Nav
 
 #main-header {
-    background: linear-gradient(rgba(244,151,0,0.45), rgba(244,151,0,0.9)), url('./images/blank-business-composition-computer-373076.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(244,151,0,0.45), rgba(244,151,0,0.9)), url('./images/2point2mediaoffice.jpg') no-repeat center center/cover;
     height: 100vh;
     
 
@@ -125,7 +125,7 @@ a {
 }
 
 #cta-2 {
-    background: linear-gradient(rgba(244,151,0,0.45), rgba(244,151,0,0.9)), url('./images/2point2mediawarehouse\ \(2\).jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(244,151,0,0.45), rgba(244,151,0,0.9)), url('./images/2point2mediawarehouse.jpg') no-repeat center center/cover;
     padding: 4rem;
     text-align: center;
     font-size: 1.25rem;
@@ -213,6 +213,12 @@ a {
                     padding: 3.25rem;
                     margin-bottom: 1.25rem;
                 }
+
+                .card-1 .fas {
+                    padding: 2.85rem;
+                }
+
+                
             }
         }
     }
@@ -367,9 +373,6 @@ a {
                 grid-gap: 2rem;
                 padding: 2.6rem 0;
 
-                 .card-1 .fas  {
-            padding: 2.8rem;
-            }
 
                 .card {
                     &:hover {
@@ -478,7 +481,7 @@ a {
 }
 
 #main-header {
-    height: 150vh;
+    height: 130vh;
 }
 }
 // Iphone 5 and Galaxy
@@ -522,8 +525,12 @@ a {
                 grid-template-columns: 1fr;
                 padding: 2.5rem;
 
-                 .card-1 .fas, .card-4 .fas {
+            .card-4 .fas {
             padding: 4.25rem;
+            }
+
+            .card-1 .fas {
+                padding: 4.4rem;
             }
                 
                 .fas {
