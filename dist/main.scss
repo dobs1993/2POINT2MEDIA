@@ -722,3 +722,9 @@ transform: rotate(90deg);
     color: rgb(252, 184, 57);
 }
 }
+
+@media (min-width: 0px) and (max-width: 420px){
+    #main-a .main-container .grid-container .card-1 .fas {
+        padding: 4rem;
+    }
+}

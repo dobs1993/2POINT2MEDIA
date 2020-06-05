@@ -679,4 +679,10 @@ HAMBURGER LINES
     color: #fcb839;
   }
 }
+
+@media (min-width: 0px) and (max-width: 420px) {
+  #main-a .main-container .grid-container .card-1 .fas {
+    padding: 4rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
