@@ -11,7 +11,7 @@
 
 body {
   background: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 ul {
@@ -149,7 +149,7 @@ a {
   color: #fff;
   margin-left: 1rem;
   border-radius: 50%;
-  background: #FF9900;
+  background: #ff9900;
   padding: 0.7rem;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
@@ -157,7 +157,7 @@ a {
 
 #cta-2 .fas:hover {
   background: #fff;
-  color: #FF9900;
+  color: #ff9900;
 }
 
 .cta-3 a {
@@ -177,8 +177,8 @@ a {
 
 #main-a .main-container #whatwedo {
   font-size: 2.5rem;
-  color: #FF9900;
-  padding-bottom: .10rem;
+  color: #ff9900;
+  padding-bottom: 0.1rem;
 }
 
 #main-a .main-container .sub-heading {
@@ -214,14 +214,16 @@ a {
 }
 
 #main-a .main-container .grid-container .card .text-lead {
-  color: #FF9900;
+  color: #ff9900;
   font-weight: bold;
   font-size: 1.25rem;
 }
 
-#main-a .main-container .grid-container .fas, #main-a .main-container .grid-container .far, #main-a .main-container .grid-container .fab {
+#main-a .main-container .grid-container .fas,
+#main-a .main-container .grid-container .far,
+#main-a .main-container .grid-container .fab {
   color: #fff;
-  background: #FF9900;
+  background: #ff9900;
   border-radius: 50%;
   padding: 3.25rem;
   margin-bottom: 1.25rem;
@@ -245,8 +247,8 @@ a {
 
 #growth .growth-container #whatwedo {
   font-size: 1.7rem;
-  color: #FF9900;
-  padding-bottom: .10rem;
+  color: #ff9900;
+  padding-bottom: 0.1rem;
   text-align: center;
 }
 
@@ -270,7 +272,7 @@ a {
 
 #growth .growth-container .fas {
   color: #fff;
-  background: #FF9900;
+  background: #ff9900;
   border-radius: 50%;
   padding: 3.25rem;
   margin-bottom: 1.25rem;
@@ -300,12 +302,12 @@ a {
 }
 
 #growth .growth-container .growth-content .keywords-and-ppc a {
-  color: #FF9900;
+  color: #ff9900;
   text-decoration: none;
 }
 
 #footer #main-footer {
-  background: #262F36;
+  background: #262f36;
 }
 
 #footer #main-footer .footer {
@@ -440,7 +442,8 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #growth .growth-container .keywords-and-ppc h4, #growth .growth-container .keywords-and-ppc p {
+  #growth .growth-container .keywords-and-ppc h4,
+  #growth .growth-container .keywords-and-ppc p {
     margin-bottom: 1rem;
   }
   #cta-2 a {
