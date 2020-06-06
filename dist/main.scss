@@ -728,3 +728,96 @@ transform: rotate(90deg);
         padding: 4rem;
     }
 }
+
+// Ipads
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+#main-header {
+height: 50vh;
+}
+}
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+#main-header {
+    height: 50vh;
+}
+}
+
+// Landscape mode
+
+@media screen and (orientation: landscape) and (min-width: 400px) and (max-width:780px){
+    #main-header {
+        height: 150vh;
+    }
+}
+
+@media all and (device-width: 823px) and (device-height: 411px) and (orientation:landscape) {
+#main-header {
+    height: 160vh;
+}
+}
+
+@media all and (device-width: 568px) and (device-height: 320px) and (orientation:landscape) {
+#main-header {
+    height: 170vh;
+}
+}
+
+@media all and (device-width: 812px) and (device-height: 375px) and (orientation:landscape) {
+#main-header {
+    height: 170vh;
+}
+}
+
+@media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
+#main-header {
+    height: 80vh;
+}
+}
+
+@media all and (device-width: 823px) and (device-height: 411px) and (orientation:landscape) {
+#main-header {
+    height: 130vh;
+}
+}
+
+@media all and (min-width: 800px) and (max-width: 2500px) and (orientation: landscape) {
+    #main-header {
+        height: 120vh;
+    }
+}
+
+@media all and (min-height: 680px) and (max-height: 1000px) and (orientation:portrait) {
+#main-header {
+    height: 110vh;
+}
+}
+
+@media screen and (orientation: landscape) and (device-width: 823px) and (device-height:411px){
+    #main-header {
+        height: 160vh;
+    }
+}
+
+@media screen and (orientation: landscape) and (device-width: 812px) and (device-height:375px){
+    #main-header {
+        height: 170vh;
+    }
+}
+
+@media screen and (orientation: landscape) and (device-width: 1024px) and (device-height:768px){
+    #main-header {
+        height: 80vh;
+    }
+}
+
+@media screen and (orientation: landscape) and (device-width: 1366px) and (device-height:1024px){
+    #main-header {
+        height: 70vh;
+    }
+}
+
+@media screen and (orientation: portrait) and (device-width: 1792px) and (device-height:828px){
+    #main-header {
+        height: 100vh;
+    }
+}
