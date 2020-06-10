@@ -427,6 +427,7 @@ a {
   }
   #footer #main-footer .footer .card-2 li:first-child a:nth-child(2) {
     padding-left: 0rem;
+    margin-top: 0.5rem;
   }
   #footer #main-footer .footer .card-2 li a {
     color: #fff;
