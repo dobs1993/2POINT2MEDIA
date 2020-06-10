@@ -323,6 +323,15 @@ a {
         padding-bottom: 5px;
         font-size: 0.9rem;
 
+        &:first-child {
+          a:first-child {
+            padding-right: 0.5rem;
+          }
+          a:nth-child(2) {
+            padding-left: 0.5rem;
+          }
+        }
+
         a {
           color: #fff;
         }
@@ -403,6 +412,31 @@ a {
 
     .fas {
       display: none;
+    }
+  }
+  #footer #main-footer .footer {
+    .card-2 {
+      width: 100%;
+
+      li {
+        margin-bottom: 1rem;
+        border-bottom: 1px dotted #f4f4f4;
+        padding-bottom: 5px;
+        font-size: 0.9rem;
+
+        &:first-child {
+          a:first-child {
+            padding-right: 0rem;
+          }
+          a:nth-child(2) {
+            padding-left: 0rem;
+          }
+        }
+
+        a {
+          color: #fff;
+        }
+      }
     }
   }
 }
@@ -711,6 +745,8 @@ HAMBURGER LINES
     padding: 4rem;
   }
 }
+
+
 
 // Ipads
 
