@@ -160,6 +160,48 @@ a {
   }
 }
 
+#cta-partnerships {
+  background: #fff;
+  text-align: center;
+  padding: 2.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+  width: 100%;
+
+  #partnership-text {
+    font-size: 1.7rem;
+    color: #ff9900;
+    padding-bottom: 0.1rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+    .bottom-line {
+        height: 5px;
+        width: 150px;
+        background: orange;
+        margin: 0 auto;
+        margin-bottom: 1.25rem;
+      }
+      .partnership-grid {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        max-width: 85%;
+        margin: 0 auto;
+
+        img {
+          margin-left: 2rem;
+          opacity: 0.5;
+          transition: all 1s ease-in-out;
+        }
+
+        img:hover {
+          opacity: 1
+        }
+
+      }
+}
+
 // Main
 
 #main {
@@ -346,6 +388,7 @@ a {
     margin: 0 auto;
   }
 }
+
 // Media Queries
 
 // 0 - 1250px
@@ -440,6 +483,19 @@ a {
       }
     }
   }
+
+  #cta-partnerships {
+
+      
+      .partnership-grid {
+        grid-template-columns: repeat(2,1fr);
+    
+        img {
+          margin-left: 3rem;
+        }
+
+}
+  }
 }
 
 // 0 - 800px
@@ -514,6 +570,24 @@ a {
 
   #main-header {
     height: 130vh;
+  }
+
+
+#cta-partnerships {
+
+      
+      .partnership-grid {
+        display: block;
+    
+        img {
+          margin-left: 0;
+        }
+
+        .image-one {
+          margin-top: -3.25rem;
+        }
+
+}
   }
 }
 // Iphone 5 and Galaxy
