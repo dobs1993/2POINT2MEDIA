@@ -176,30 +176,29 @@ a {
     text-align: center;
     text-transform: uppercase;
   }
-    .bottom-line {
-        height: 5px;
-        width: 150px;
-        background: orange;
-        margin: 0 auto;
-        margin-bottom: 1.25rem;
-      }
-      .partnership-grid {
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        max-width: 85%;
-        margin: 0 auto;
+  .bottom-line {
+    height: 5px;
+    width: 150px;
+    background: orange;
+    margin: 0 auto;
+    margin-bottom: 1.25rem;
+  }
+  .partnership-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 85%;
+    margin: 0 auto;
 
-        img {
-          margin-left: 2rem;
-          opacity: 0.5;
-          transition: all 1s ease-in-out;
-        }
+    img {
+      margin-left: 2rem;
+      opacity: 0.5;
+      transition: all 1s ease-in-out;
+    }
 
-        img:hover {
-          opacity: 1
-        }
-
-      }
+    img:hover {
+      opacity: 1;
+    }
+  }
 }
 
 // Main
@@ -485,16 +484,13 @@ a {
   }
 
   #cta-partnerships {
+    .partnership-grid {
+      grid-template-columns: repeat(2, 1fr);
 
-      
-      .partnership-grid {
-        grid-template-columns: repeat(2,1fr);
-    
-        img {
-          margin-left: 3rem;
-        }
-
-}
+      img {
+        margin-left: 3rem;
+      }
+    }
   }
 }
 
@@ -572,22 +568,19 @@ a {
     height: 130vh;
   }
 
+  #cta-partnerships {
+    .partnership-grid {
+      display: block;
 
-#cta-partnerships {
+      img {
+        margin-left: 0;
+        padding-left: 0;
+      }
 
-      
-      .partnership-grid {
-        display: block;
-    
-        img {
-          margin-left: 0;
-        }
-
-        .image-one {
-          margin-top: -3.25rem;
-        }
-
-}
+      .image-one {
+        margin-top: -3.25rem;
+      }
+    }
   }
 }
 // Iphone 5 and Galaxy
@@ -820,8 +813,6 @@ HAMBURGER LINES
     padding: 4rem;
   }
 }
-
-
 
 // Ipads
 

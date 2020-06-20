@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .menu-wrap {
@@ -23,16 +23,8 @@ a {
 }
 
 #main-header {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(244, 151, 0, 0.45)),
-      to(rgba(244, 151, 0, 0.9))
-    ),
-    url("./images/2point2mediaoffice.jpg") no-repeat center center/cover;
-  background: linear-gradient(rgba(244, 151, 0, 0.45), rgba(244, 151, 0, 0.9)),
-    url("./images/2point2mediaoffice.jpg") no-repeat center center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(244, 151, 0, 0.45)), to(rgba(244, 151, 0, 0.9))), url("./images/2point2mediaoffice.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(244, 151, 0, 0.45), rgba(244, 151, 0, 0.9)), url("./images/2point2mediaoffice.jpg") no-repeat center center/cover;
   height: 100vh;
 }
 
@@ -41,11 +33,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 8rem;
   max-width: 1100px;
   margin: 0 auto;
@@ -57,28 +49,14 @@ a {
 
 #main-header #main-nav .logo img {
   height: 215px;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(244, 151, 0, 0.9)),
-      to(rgba(255, 255, 255, 0.1))
-    )
-    no-repeat right center/150px 100px;
-  background: linear-gradient(rgba(244, 151, 0, 0.9), rgba(255, 255, 255, 0.1))
-    no-repeat right center/150px 100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(244, 151, 0, 0.9)), to(rgba(255, 255, 255, 0.1))) no-repeat right center/150px 100px;
+  background: linear-gradient(rgba(244, 151, 0, 0.9), rgba(255, 255, 255, 0.1)) no-repeat right center/150px 100px;
 }
 
 #main-header #main-nav .logo .bottom-line {
   height: 5px;
   width: 90px;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#ff9d00),
-    to(rgba(244, 150, 0, 0.753))
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff9d00), to(rgba(244, 150, 0, 0.753)));
   background: linear-gradient(#ff9d00, rgba(244, 150, 0, 0.753));
   position: relative;
   top: -85px;
@@ -90,8 +68,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #main-header #main-nav .links a {
@@ -157,16 +135,8 @@ a {
 }
 
 #cta-2 {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(244, 151, 0, 0.45)),
-      to(rgba(244, 151, 0, 0.9))
-    ),
-    url("./images/2point2mediawarehouse.jpg") no-repeat center center/cover;
-  background: linear-gradient(rgba(244, 151, 0, 0.45), rgba(244, 151, 0, 0.9)),
-    url("./images/2point2mediawarehouse.jpg") no-repeat center center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(244, 151, 0, 0.45)), to(rgba(244, 151, 0, 0.9))), url("./images/2point2mediawarehouse.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(244, 151, 0, 0.45), rgba(244, 151, 0, 0.9)), url("./images/2point2mediawarehouse.jpg") no-repeat center center/cover;
   padding: 4rem;
   text-align: center;
   font-size: 1.25rem;
@@ -227,8 +197,8 @@ a {
 #cta-partnerships .partnership-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [4];
-  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
   max-width: 85%;
   margin: 0 auto;
 }
@@ -273,8 +243,8 @@ a {
 #main-a .main-container .grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [3];
-  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   grid-gap: 4rem;
   padding: 4.5rem;
 }
@@ -286,7 +256,7 @@ a {
 
 #main-a .main-container .grid-container .card:hover {
   -webkit-transform: scale(1.25);
-  transform: scale(1.25);
+          transform: scale(1.25);
 }
 
 #main-a .main-container .grid-container .card .text-lead {
@@ -316,8 +286,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding: 4rem;
 }
 
@@ -362,8 +332,8 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   max-width: 60%;
 }
 
@@ -392,7 +362,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   color: #fff;
   margin: 0 auto;
   padding: 2rem 4rem 0.5rem 4rem;
@@ -463,14 +433,14 @@ a {
     font-size: 2rem;
   }
   #main-a .main-container .grid-container {
-    -ms-grid-columns: (1fr) [2];
-    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     padding: 2.6rem 0;
   }
   #main-a .main-container .grid-container .card:hover {
     -webkit-transform: none;
-    transform: none;
+            transform: none;
   }
   #growth .growth-container {
     width: 100%;
@@ -509,8 +479,8 @@ a {
     color: #fff;
   }
   #cta-partnerships .partnership-grid {
-    -ms-grid-columns: (1fr) [2];
-    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
   }
   #cta-partnerships .partnership-grid img {
     margin-left: 3rem;
@@ -549,8 +519,8 @@ a {
   #growth .growth-container .keywords-and-ppc {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #growth .growth-container .keywords-and-ppc h4,
   #growth .growth-container .keywords-and-ppc p {
@@ -566,8 +536,8 @@ a {
   #footer #main-footer .footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 2rem 0;
   }
   #footer #main-footer .footer .card-1 p {
@@ -581,6 +551,7 @@ a {
   }
   #cta-partnerships .partnership-grid img {
     margin-left: 0;
+    padding-left: 0;
   }
   #cta-partnerships .partnership-grid .image-one {
     margin-top: -3.25rem;
@@ -614,7 +585,7 @@ a {
   }
   #main-a .main-container .grid-container {
     -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     padding: 2.5rem;
   }
   #main-a .main-container .grid-container .card-4 .fas {
@@ -659,11 +630,11 @@ a {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   /* -----------------------
 HAMBURGER LINES
@@ -672,8 +643,8 @@ HAMBURGER LINES
   .menu-wrap .hamburger div {
     position: relative;
     -webkit-box-flex: 0;
-    -ms-flex: none;
-    flex: none;
+        -ms-flex: none;
+            flex: none;
     width: 100%;
     height: 4px;
     background: white;
@@ -681,11 +652,11 @@ HAMBURGER LINES
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
   }
@@ -708,19 +679,19 @@ HAMBURGER LINES
   /* USE THE + SIGN HERE TO SAY WHEN CHECKED THEN GO TO THIS DIV. SINCE YOU WANT BOTH. YOU WANT IT CHECKED AND YOU WANT THAT DIV  */
   .toggler:checked + .hamburger > div {
     -webkit-transform: rotate(135deg);
-    transform: rotate(135deg);
+            transform: rotate(135deg);
   }
   /* THIS TURNS LINES INTO X BELOW  */
   .menu-wrap .toggler:checked + .hamburger > div:before,
   .menu-wrap .toggler:checked + .hamburger > div::after {
     top: 0;
     -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
+            transform: rotate(90deg);
   }
   /* Rotate on hover when checked */
   .menu-wrap .toggler:checked:hover + .hamburger div {
     -webkit-transform: rotate(225deg);
-    transform: rotate(225deg);
+            transform: rotate(225deg);
   }
   /* Show Menu - TILDE USED - This is used to target selectors that aren't in or directly after the activated selector */
   .menu-wrap .toggler:checked ~ .menu {
@@ -728,9 +699,9 @@ HAMBURGER LINES
   }
   .menu-wrap .toggler:checked ~ .menu > div {
     -webkit-transform: scale(1);
-    transform: scale(1);
+            transform: scale(1);
     -webkit-transition-duration: 0.75s;
-    transition-duration: 0.75s;
+            transition-duration: 0.75s;
   }
   .menu-wrap .toggler:checked ~ .menu > div > div {
     opacity: 1;
@@ -749,11 +720,11 @@ HAMBURGER LINES
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .menu-wrap .menu > div {
     background: rgba(244, 151, 0, 0.7);
@@ -763,19 +734,19 @@ HAMBURGER LINES
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-transform: scale(0);
-    transform: scale(0);
+            transform: scale(0);
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     border-radius: 50%;
     -webkit-box-flex: 0;
-    -ms-flex: none;
-    flex: none;
+        -ms-flex: none;
+            flex: none;
   }
   .menu-wrap .menu > div > div {
     text-align: center;
