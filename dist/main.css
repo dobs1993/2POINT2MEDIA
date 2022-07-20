@@ -23,8 +23,8 @@ a {
 }
 
 #main-header {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(244, 151, 0, 0.45)), to(rgba(244, 151, 0, 0.9))), url("./images/2point2mediaoffice.jpg") no-repeat center center/cover;
-  background: linear-gradient(rgba(244, 151, 0, 0.45), rgba(244, 151, 0, 0.9)), url("./images/2point2mediaoffice.jpg") no-repeat center center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 184, 238, 0.45)), to(rgba(3, 63, 112, 0.9))), url("./images/2point2mediaoffice.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(46, 175, 235, 0.45), rgba(5, 38, 129, 0.9)), url("./images/2point2mediaoffice.jpg") no-repeat center center/cover;
   height: 100vh;
 }
 
@@ -48,16 +48,14 @@ a {
 }
 
 #main-header #main-nav .logo img {
-  height: 215px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(244, 151, 0, 0.9)), to(rgba(255, 255, 255, 0.1))) no-repeat right center/150px 100px;
-  background: linear-gradient(rgba(244, 151, 0, 0.9), rgba(255, 255, 255, 0.1)) no-repeat right center/150px 100px;
+  height: 55px;
 }
 
 #main-header #main-nav .logo .bottom-line {
   height: 5px;
   width: 90px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff9d00), to(rgba(244, 150, 0, 0.753)));
-  background: linear-gradient(#ff9d00, rgba(244, 150, 0, 0.753));
+  background: -webkit-gradient(linear, left top, left bottom, from(#146ed4), to(rgba(244, 150, 0, 0.753)));
+  background: linear-gradient(#146ed4, rgba(0, 155, 244, 0.753));
   position: relative;
   top: -85px;
   left: 112px;
@@ -84,7 +82,7 @@ a {
 }
 
 #main-header #main-nav .links a:hover {
-  background: #f49700;
+  background: #002fca;
   border-radius: 5px;
 }
 
@@ -107,7 +105,7 @@ a {
 }
 
 #main-header #header-content .content-container a {
-  background: #ff6600;
+  background: #0084ff;
   color: #fff;
   padding: 1.6rem 2rem;
   border-radius: 5px;
@@ -117,11 +115,11 @@ a {
 }
 
 #main-header #header-content .content-container a:hover {
-  background: #fa9a0a;
+  background: #146ed4;
 }
 
 #cta {
-  background: rgba(255, 153, 0, 0.808);
+  background: rgba(4, 6, 151, 0.808);
   text-align: center;
   padding: 2.5rem;
   font-size: 1.25rem;
@@ -135,8 +133,8 @@ a {
 }
 
 #cta-2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(244, 151, 0, 0.45)), to(rgba(244, 151, 0, 0.9))), url("./images/2point2mediawarehouse.jpg") no-repeat center center/cover;
-  background: linear-gradient(rgba(244, 151, 0, 0.45), rgba(244, 151, 0, 0.9)), url("./images/2point2mediawarehouse.jpg") no-repeat center center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 44, 223, 0.45)), to(rgba(244, 151, 0, 0.9))), url("./images/2point2mediawarehouse.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(3, 102, 214, 0.45), rgba(3, 66, 182, 0.9)), url("./images/2point2mediawarehouse.jpg") no-repeat center center/cover;
   padding: 4rem;
   text-align: center;
   font-size: 1.25rem;
@@ -149,7 +147,7 @@ a {
   color: #fff;
   margin-left: 1rem;
   border-radius: 50%;
-  background: #ff9900;
+  background: #0044ff;
   padding: 0.7rem;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
@@ -157,15 +155,15 @@ a {
 
 #cta-2 .fas:hover {
   background: #fff;
-  color: #ff9900;
+  color: #001aff;
 }
 
 .cta-3 a {
-  color: orangered;
+  color: rgb(0, 132, 255);
 }
 
 .cta-3 a:visited {
-  color: #ff6600;
+  color: #0026ff;
 }
 
 #cta-partnerships {
@@ -180,7 +178,7 @@ a {
 
 #cta-partnerships #partnership-text {
   font-size: 1.7rem;
-  color: #ff9900;
+  color: #003cff;
   padding-bottom: 0.1rem;
   text-align: center;
   text-transform: uppercase;
@@ -189,7 +187,7 @@ a {
 #cta-partnerships .bottom-line {
   height: 5px;
   width: 150px;
-  background: orange;
+  background: rgb(0, 132, 255);
   margin: 0 auto;
   margin-bottom: 1.25rem;
 }
@@ -223,19 +221,19 @@ a {
 
 #main-a .main-container #whatwedo {
   font-size: 2.5rem;
-  color: #ff9900;
+  color: #0066ff;
   padding-bottom: 0.1rem;
 }
 
 #main-a .main-container .sub-heading {
   font-size: 2.5rem;
-  color: #ffa600;
+  color: #0026ff;
 }
 
 #main-a .main-container .bottom-line {
   height: 5px;
   width: 150px;
-  background: orange;
+  background: rgba(0, 119, 255, 0.753);
   margin: 0 auto;
   margin-bottom: 1.25rem;
 }
@@ -260,7 +258,7 @@ a {
 }
 
 #main-a .main-container .grid-container .card .text-lead {
-  color: #ff9900;
+  color: #0011ff;
   font-weight: bold;
   font-size: 1.25rem;
 }
@@ -269,7 +267,7 @@ a {
 #main-a .main-container .grid-container .far,
 #main-a .main-container .grid-container .fab {
   color: #fff;
-  background: #ff9900;
+  background: #0a105e;
   border-radius: 50%;
   padding: 3.25rem;
   margin-bottom: 1.25rem;
@@ -293,14 +291,14 @@ a {
 
 #growth .growth-container #whatwedo {
   font-size: 1.7rem;
-  color: #ff9900;
+  color: #0400ff;
   padding-bottom: 0.1rem;
   text-align: center;
 }
 
 #growth .growth-container .sub-heading {
   font-size: 1.25rem;
-  color: #ffa600;
+  color: #001aff;
   padding-bottom: 1rem;
 }
 
@@ -311,14 +309,14 @@ a {
 #growth .growth-container .bottom-line {
   height: 5px;
   width: 150px;
-  background: orange;
+  background: rgb(0, 68, 255);
   margin: 0 auto;
   margin-bottom: 1.25rem;
 }
 
 #growth .growth-container .fas {
   color: #fff;
-  background: #ff9900;
+  background: #062691;
   border-radius: 50%;
   padding: 3.25rem;
   margin-bottom: 1.25rem;
@@ -348,7 +346,7 @@ a {
 }
 
 #growth .growth-container .growth-content .keywords-and-ppc a {
-  color: #ff9900;
+  color: #0059ff;
   text-decoration: none;
 }
 
