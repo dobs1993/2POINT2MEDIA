@@ -48,7 +48,7 @@ a {
 }
 
 #main-header #main-nav .logo img {
-  height: 55px;
+  height: 125px;
 }
 
 #main-header #main-nav .logo .bottom-line {
@@ -503,13 +503,13 @@ a {
     padding: 1rem 0rem;
   }
   #main-header #header-content .content-container p {
-    color: #fdedd4;
+    color: #6acbf8;
     font-size: 1.7rem;
     font-style: italic;
     padding-bottom: 1.5rem;
   }
   #main-header #header-content .content-container a {
-    background: #ff6600;
+    background: #0051ff;
     color: #fff;
     padding: 1.7rem 2.3rem;
     border-radius: 5px;
@@ -725,7 +725,7 @@ HAMBURGER LINES
             justify-content: center;
   }
   .menu-wrap .menu > div {
-    background: rgba(244, 151, 0, 0.7);
+    background: rgba(0, 65, 244, 0.7);
     width: 200vw;
     height: 200vw;
     display: -webkit-box;
@@ -767,7 +767,7 @@ HAMBURGER LINES
     transition: color 0.4s ease;
   }
   .menu-wrap .menu > div > div > ul > li > a:hover {
-    color: #fcb839;
+    color: #398dfc;
   }
 }
 
